@@ -1,15 +1,13 @@
 
-# myMovies
+# NiceFlix
 
-myMovies is a complete MERN stack progressive web app (PWA) for everything related to Movies, Shows, and Artists. The movie database is taken from my [TMDB](https://www.themoviedb.org/) API and built using technologies including [ReactJS](https://reactjs.org/), [ReduxJS/Toolkit](https://redux-toolkit.js.org/), [TailwindCSS](https://tailwindcss.com/), [DaisyUI](https://daisyui.com/), [NodeJS](https://nodejs.org/), [ExpressJS](https://expressjs.com/), and [MongoDB](https://www.mongodb.com/).
+NiceFlix is a complete MERN stack for Shows, and Artists. The movie database is taken from my [TMDB](https://www.themoviedb.org/) API and built using technologies including [ReactJS](https://reactjs.org/), [ReduxJS/Toolkit](https://redux-toolkit.js.org/), [TailwindCSS](https://tailwindcss.com/), [NodeJS](https://nodejs.org/), [ExpressJS](https://expressjs.com/), and [MongoDB](https://www.mongodb.com/).
 
 ## Features
 
-- Progessive Web App (PWA)
 - Search Movies, Shows, and Artists
 - Complete Details of Movies, Shows, and Artists
 - Watch Trailers
-- Browse Backdrops and Posters
 - Add to Liked and Watch Later Collection
 
 ## Preview
