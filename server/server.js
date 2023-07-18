@@ -10,8 +10,6 @@ const userAuthorization = require("./middleware/userAuthorization");
 const path = require('path')
 
 app.get('/test',(req,res)=>res.send('app is working fine.'))
-// only when ready to deploy
-app.use(express.static("../client/build"));
 
 
 // middleware
