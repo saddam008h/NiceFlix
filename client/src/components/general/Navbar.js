@@ -148,7 +148,7 @@ const Navbar = () => {
         </div>
         <button
           id="searchButton" 
-          className={`${isInputOpen ?'hidden':'block'} xl:text-3xl text-xl text-white mr-2 xl:mr-5 xl:mt-2 `}
+          className={`${isInputOpen ?'hidden':'block'} xl:text-3xl text-xl text-white mr-2 xl:mr-5 xl:mt-0 `}
           onClick={handleSearchButtonClick}
         >
           <BiSearch />
