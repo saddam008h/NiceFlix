@@ -41,6 +41,3 @@ app.use("/authorization", userRoutes);
 // authorization middleware
 app.use(userAuthorization);
 app.use("/user", collectionRoutes);
-
-// only when ready to deploy
-app.get('*', (req,res) => res.sendFile(path.resolve(__dirname,'../client', 'build','index.html')));
