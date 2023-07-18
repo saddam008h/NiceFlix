@@ -10,24 +10,12 @@ NiceFlix is a complete MERN stack for Shows, and Artists. The movie database is 
 - Watch Trailers
 - Add to Liked and Watch Later Collection
 
-## Preview
-
-![preview-mymovies](https://user-images.githubusercontent.com/43317360/206182064-de4727e2-20d3-4609-8faa-93d0795ff7dc.jpg)
-
 ## Installation & Setup
 
 - First, download or clone this repo, and then run the command given below to install all the required dependencies.
 
-```bash
-  npm install-client && install-server
-```
-
-- Rename the `.env_sample` file to `.env` inside server folder.
-
 - Get TMDB API Key from **[HERE](https://developers.themoviedb.org/3)** and MongoDB connection URI from **[HERE](https://www.mongodb.com/)**
 
 - Provide your **MONGODB_URI**, **JWT_SECRET_KEY**, **PORT**, **BASE_URL**, and **API_KEY** inside the `.env` file.
-
-- Run `npm start-server && start-client` from the root folder.
 
 - Finally, Preview this project locally by visiting the URL: `localhost:<PORT number>`
