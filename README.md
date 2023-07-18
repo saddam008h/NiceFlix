@@ -33,7 +33,3 @@ myMovies is a complete MERN stack progressive web app (PWA) for everything relat
 - Run `npm start-server && start-client` from the root folder.
 
 - Finally, Preview this project locally by visiting the URL: `localhost:<PORT number>`
-
-## License
-
-[![license](https://img.shields.io/github/license/helloukey/mymovies?style=for-the-badge)](LICENSE)

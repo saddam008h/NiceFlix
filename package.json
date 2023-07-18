@@ -1,5 +1,5 @@
 {
-  "name": "mymovies",
+  "name": "niceflix",
   "version": "1.0.0",
   "description": "Your own personal movies, shows, and artist collection store.",
   "main": "index.js",
@@ -12,10 +12,7 @@
     "start-client": "cd client && npm run start",
     "start-production": "npm run start-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/helloukey/myMovies.git"
-  },
+
   "keywords": [
     "mymovies",
     "movie",
@@ -28,10 +25,5 @@
     "movie",
     "app"
   ],
-  "author": "Kunal Ukey",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/helloukey/myMovies/issues"
-  },
-  "homepage": "https://github.com/helloukey/myMovies#readme"
+  "author": "Saddam Hussain"
 }

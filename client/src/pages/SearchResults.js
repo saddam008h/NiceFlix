@@ -55,7 +55,7 @@ const SearchResults = () => {
 
   return (
     <div
-      className={`w-full ${isSearch ? "pt-14 md:pt-14" : ""} transition-all`}
+      className={`w-full pt-10 transition-all`}
     >
       {!isLoading && data
       ?

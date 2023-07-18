@@ -1,6 +1,5 @@
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
-import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 import { FaGlobe } from "@react-icons/all-files/fa/FaGlobe";
 
@@ -10,10 +9,10 @@ const Footer = () => {
         <div className="w-full flex justify-evenly items-center sm:flex-col sm:items-start sm:justify-center gap-2">
 
           <div className="text-sm text-center sm:text-left">
-            <p>Copyright © 2022 - All rights reserved.</p>
+            <p>Copyright © 2023 - All rights reserved.</p>
             <p>Made with ❤{" "}
                 <a aria-label="helloukey" target="_blank" rel="noreferrer" className="hover:text-white underline"
-                    href="https://github.com/helloukey">@helloukey
+                    href="https://github.com/SHnice">Saddam Hussain
                 </a>
             </p>
             <p>Data provided by -{" "} 
@@ -27,7 +26,7 @@ const Footer = () => {
         <div className="flex items-center justify-center gap-4 pb-10 sm:p-0">
             <a 
                 aria-label="website"
-                href="https://kunalukey.com"
+                href="https://saddamhussain.vercel.app"
                 target="_blank" rel="noreferrer"
                 className="hover:text-white"
                 >
@@ -35,7 +34,7 @@ const Footer = () => {
             </a>
             <a 
                 aria-label="github"
-                href="https://github.com/helloukey"
+                href="https://github.com/SHnice"
                 target="_blank" rel="noreferrer"
                 className="hover:text-white"
                 >
@@ -43,23 +42,15 @@ const Footer = () => {
             </a>
             <a 
                 aria-label="linkedin"
-                href="https://www.linkedin.com/in/kunalukey/"
+                href="https://www.linkedin.com/in/saddam-hussain-3719b2248/"
                 target="_blank" rel="noreferrer"
                 className="hover:text-white"
                 >
                 <FaLinkedinIn className="text-xl lg:text-2xl" />
             </a>
             <a 
-                aria-label="youtube"
-                href="https://youtube.com/c/techlenses"
-                target="_blank" rel="noreferrer"
-                className="hover:text-white"
-                >
-                <FaYoutube className="text-xl lg:text-2xl" />
-            </a>
-            <a 
                 aria-label="mail"
-                href="mailto:kunalukey32@gmail.com"
+                href="mailto:arsal0344@gmail.com"
                 target="_blank" rel="noreferrer"
                 className="hover:text-white"
                 >
