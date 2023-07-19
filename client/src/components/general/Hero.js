@@ -85,9 +85,9 @@ const Hero = ({ data, error }) => {
 
             {/* YouTube Player */}
             {playTrailer &&
-            <div className={playTrailer ? "player-wrapper" : "player-wrapper-hidden"}>
+            <div className={playTrailer ? "player-wrapper -mt-10 xl:mt-12" : "player-wrapper-hidden"}>
               <ReactPlayer
-                className="react-player"
+                className="react-player "
                 url={youtubeVideo}
                 playing={playTrailer}
                 controls={true}
@@ -102,7 +102,7 @@ const Hero = ({ data, error }) => {
               <button
                 aria-label="Close"
                 onClick={() => setPlayTrailer(false)}
-                className="absolute bottom-1 left-2/4 -translate-x-2/4 z-50"
+                className="absolute bottom-1 left-2/4 -translate-x-2/4 z-30"
               >
                 <FaTimes className="text-white text-4xl btn-ghost rounded-full p-1" />
               </button>

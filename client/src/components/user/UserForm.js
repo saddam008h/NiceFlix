@@ -46,7 +46,7 @@ const UserForm = () => {
   }
 
   return (
-    <div className="w-full min-h-screen flex justify-center items-center mt-12  p-4 md:p-10 lg:p-12">
+    <div className="w-full min-h-screen flex justify-center items-center lg:mt-12  p-4 md:p-10 lg:p-12">
       {/* Card Wrapper */}
       <div className="w-full max-w-md md:max-w-4xl flex justify-center items-center">
         {/* Card Container */}

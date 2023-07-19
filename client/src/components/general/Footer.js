@@ -1,63 +1,45 @@
-import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
-import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
-import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
-import { FaGlobe } from "@react-icons/all-files/fa/FaGlobe";
+import React, { useContext } from 'react'
+import {Link} from 'react-router-dom'
 
-const Footer = () => {
+export default function Footer() {
+
   return (
-      <footer className="w-full flex flex-col gap-10 sm:gap-5 sm:flex-row items-center justify-between p-4 md:p-10 lg:p-12 mb-16 mt-16 xl:mb-0">
-        <div className="w-full flex justify-evenly items-center sm:flex-col sm:items-start sm:justify-center gap-2">
-
-          <div className="text-sm text-center sm:text-left">
-            <p>Copyright © 2023 - All rights reserved.</p>
-            <p>Made with ❤{" "}
-                <a aria-label="helloukey" target="_blank" rel="noreferrer" className="hover:text-white underline"
-                    href="https://github.com/SHnice">Saddam Hussain
-                </a>
-            </p>
-            <p>Data provided by -{" "} 
-                <a aria-label="tmdb" target="_blank" rel="noreferrer" className="hover:text-white underline"
-                    href="https://www.themoviedb.org/">TMDB
-                </a>
-            </p>
-          </div>
-          
+    <>
+    <footer class="rounded-lg shadow p-4">
+    <div class="p-6 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="/" class="flex items-center mb-4 sm:mb-0">
+                
+           
+            <div className="text-red-600 xl:mr-10  mr-2 font-extrabold xl:text-3xl">
+            NiceFlix
+            </div>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400">
+                <li>
+                    <a href='/' class="mr-4 hover:text-white md:mr-6 ">Home</a>
+                </li>
+                <li>
+                    <Link to='/movies' href="/Projects" class="mr-4 hover:text-white md:mr-6">Movies</Link>
+                </li>
+                <li>
+                    <Link to='/shows' class="mr-4 hover:text-white md:mr-6 ">Shows</Link>
+                </li>
+               
+            </ul>
         </div>
-        <div className="flex items-center justify-center gap-4 pb-10 sm:p-0">
-            <a 
-                aria-label="website"
-                href="https://saddamhussain.vercel.app"
-                target="_blank" rel="noreferrer"
-                className="hover:text-white"
-                >
-                <FaGlobe className="text-xl lg:text-2xl" />
-            </a>
-            <a 
-                aria-label="github"
-                href="https://github.com/SHnice"
-                target="_blank" rel="noreferrer"
-                className="hover:text-white"
-                >
-                <FaGithub className="text-xl lg:text-2xl" />
-            </a>
-            <a 
-                aria-label="linkedin"
-                href="https://www.linkedin.com/in/saddam-hussain-3719b2248/"
-                target="_blank" rel="noreferrer"
-                className="hover:text-white"
-                >
-                <FaLinkedinIn className="text-xl lg:text-2xl" />
-            </a>
-            <a 
-                aria-label="mail"
-                href="mailto:arsal0344@gmail.com"
-                target="_blank" rel="noreferrer"
-                className="hover:text-white"
-                >
-                <FaEnvelope className="text-xl lg:text-2xl" />
-            </a>
+        <hr class="my-6 sm:mx-auto border-gray-700 lg:my-4" />
+        <div className='flex '>
+        <div class="text-sm sm:text-center text-gray-400">© 2023 <a href="/" class="hover:underline">NiceFlix™</a>. All Rights Reserved.</div>
+        <div className='ml-auto md:mr-5 flex space-x-2 md:space-x-8'>
+            <a href="https://github.com/SHnice"><i class='bx bxl-github text-gray-400 text-2xl right hover:text-purple-400 hover:rotate-3'></i></a>
+            <a href="https://www.linkedin.com/in/saddam-hussain-3719b2248"><i class='bx bxl-linkedin-square text-gray-400 text-2xl right hover:text-blue-500 hover:rotate-3 '></i></a>
+            <a href="https://facebook.com/h.saarim"><i class='bx bxl-facebook-square text-gray-400 text-2xl right hover:text-sky-400 hover:rotate-3 '></i></a>
+            <a href="https://instagram.com/sad_dam667"><i class='bx bxl-instagram text-gray-400 text-2xl right hover:text-pink-500 hover:rotate-3 '></i></a>
         </div>
-      </footer>
-  );
-};
-export default Footer;
+        </div>
+    </div>
+</footer>
+    </>
+  )
+}

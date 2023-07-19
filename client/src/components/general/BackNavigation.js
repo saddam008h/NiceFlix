@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const BackNavigation = () => {
   const navigate = useNavigate();
   return (
-      <div className="xl:hidden w-full flex items-center gap-2 px-4 md:px-10 lg:px-12 bg-card">
+      <div className="xl:hidden w-full mt-16 flex items-center px-4 md:px-10 lg:px-12 bg-card">
         <button
           onClick={() => navigate(-1)}
           className="btn btn-circle btn-ghost">
