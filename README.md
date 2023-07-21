@@ -3,6 +3,9 @@
 
 NiceFlix is a complete MERN stack for Shows, and Artists. The movie database is taken from my [TMDB](https://www.themoviedb.org/) API and built using technologies including [ReactJS](https://reactjs.org/), [ReduxJS/Toolkit](https://redux-toolkit.js.org/), [TailwindCSS](https://tailwindcss.com/), [NodeJS](https://nodejs.org/), [ExpressJS](https://expressjs.com/), and [MongoDB](https://www.mongodb.com/).
 
+![screenshot](Screenshots/niceflix.png)
+
+
 ## Features
 
 - Search Movies, Shows, and Artists
