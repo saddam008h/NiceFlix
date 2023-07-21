@@ -5,6 +5,14 @@ NiceFlix is a complete MERN stack for Shows, and Artists. The movie database is 
 
 ![screenshot](Screenshots/niceflix.png)
 
+![screenshot](Screenshots/movie.png)
+
+![screenshot](Screenshots/morelike.png)
+
+![screenshot](Screenshots/search.png)
+
+![screenshot](Screenshots/login.png)
+
 
 ## Features
 
