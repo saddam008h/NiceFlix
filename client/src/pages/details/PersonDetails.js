@@ -9,7 +9,7 @@ const PersonDetails = () => {
   const { id } = useParams();
   const { data, isLoading } = useGetPersonDetailsPageQuery(id);
   return (
-    <div className="w-full mt-10">
+    <div className="w-full mt-20">
       {!isLoading && data ? (
         <>
           {/* Back Navigation */}
