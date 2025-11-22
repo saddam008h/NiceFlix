@@ -32,7 +32,7 @@ export default function Footer() {
         <div className='flex '>
         <div class="text-sm sm:text-center text-gray-400">© 2023 <a href="/" class="hover:underline">NiceFlix™</a>. All Rights Reserved.</div>
         <div className='ml-auto md:mr-5 flex space-x-2 md:space-x-8'>
-            <a href="https://github.com/saddam008h"><i class='bx bxl-github text-gray-400 text-2xl right hover:text-purple-400 hover:rotate-3'></i></a>
+            <a href="https://github.com/saddam008h/NiceFlix"><i class='bx bxl-github text-gray-400 text-2xl right hover:text-purple-400 hover:rotate-3'></i></a>
             <a href="https://www.linkedin.com/in/saddam-hussain-3719b2248"><i class='bx bxl-linkedin-square text-gray-400 text-2xl right hover:text-blue-500 hover:rotate-3 '></i></a>
         </div>
         </div>
