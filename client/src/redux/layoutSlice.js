@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   isSearch: false,
   backdrop: "https://image.tmdb.org/t/p/original/",
-  poster: "https://image.tmdb.org/t/p/w370_and_h556_bestv2/",
+  poster: "https://image.tmdb.org/t/p/w500/",
   page: 1,
   searchQuery: "",
   cardAction: false,

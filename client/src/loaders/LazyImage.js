@@ -7,19 +7,26 @@ const LazyImage = ({ src, placeholder, type }) => {
   const imageRef = useRef();
 
   useEffect(() => {
+    // Reset image state whenever source changes (e.g. route param updates).
+    setLoading(true);
+    setImageURL("");
+  }, [src]);
+
+  useEffect(() => {
+    if (!loading || !placeholderRef.current) return;
+
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting) {
-        setImageURL(imageRef?.current?.getAttribute("data-src"));
+        setImageURL(src);
       }
       // unobserve on intersection
       if (entries[0].isIntersecting) observer.unobserve(entries[0].target);
     });
-    
-    if(placeholderRef && placeholderRef.current) {
-      observer.observe(placeholderRef.current);
-    }
 
-  }, [src, placeholder]);
+    observer.observe(placeholderRef.current);
+
+    return () => observer.disconnect();
+  }, [src, loading]);
 
   return (
     <>
